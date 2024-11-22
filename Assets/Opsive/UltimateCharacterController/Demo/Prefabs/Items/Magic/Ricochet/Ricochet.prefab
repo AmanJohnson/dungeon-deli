@@ -24,6 +24,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 104266163}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.12387538, y: -0.69700193, z: 0.6540966, w: 0.26646}
   m_LocalPosition: {x: 0.67814046, y: -0.2547696, z: -0.019258367}
   m_LocalScale: {x: 1.0000148, y: 0.99998873, z: 0.99999726}
@@ -31,7 +32,6 @@ Transform:
   m_Children:
   - {fileID: 838914189}
   m_Father: {fileID: 108117436}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &104266165
 AudioSource:
@@ -156,6 +156,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 108117435}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -164,7 +165,6 @@ Transform:
   - {fileID: 104266164}
   - {fileID: 2013716322}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &108117442
 MonoBehaviour:
@@ -183,8 +183,7 @@ MonoBehaviour:
     m_Preset: {fileID: 0}
     m_BlockList: []
     m_Default: 1
-  m_ItemDefinition: {fileID: 114679104364087316, guid: 5481010ef14c32f4cb7b6661b0c59fb4,
-    type: 2}
+  m_ItemDefinition: {fileID: 114679104364087316, guid: 5481010ef14c32f4cb7b6661b0c59fb4, type: 2}
   m_SlotID: 0
   m_AnimatorItemID: 63
   m_AnimatorMovementSetID: 0
@@ -271,13 +270,11 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 689388803770023972
-      type: {class: Sequence, ns: Opsive.UltimateCharacterController.Items.AnimatorAudioStates,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: Sequence, ns: Opsive.UltimateCharacterController.Items.AnimatorAudioStates, asm: Opsive.UltimateCharacterController}
       data:
         m_ResetDelay: -1
     - rid: 689388803770023973
-      type: {class: Sequence, ns: Opsive.UltimateCharacterController.Items.AnimatorAudioStates,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: Sequence, ns: Opsive.UltimateCharacterController.Items.AnimatorAudioStates, asm: Opsive.UltimateCharacterController}
       data:
         m_ResetDelay: -1
 --- !u!114 &108117441
@@ -478,8 +475,7 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 1000
-      type: {class: CheckTargetImpactConditionBehaviour, ns: Opsive.UltimateCharacterController.Items.Actions.Impact,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: CheckTargetImpactConditionBehaviour, ns: Opsive.UltimateCharacterController.Items.Actions.Impact, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -490,8 +486,7 @@ MonoBehaviour:
           m_Bindings: []
         m_Enabled: 1
     - rid: 5031970604905398297
-      type: {class: Simple, ns: Opsive.UltimateCharacterController.Items.Actions.Modules,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: Simple, ns: Opsive.UltimateCharacterController.Items.Actions.Modules, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -523,19 +518,16 @@ MonoBehaviour:
             m_StateName: 
             m_ItemSubstateIndex: 2
             m_AudioClipSet:
-              m_AudioConfig: {fileID: 11400000, guid: e33d5a179a6234e44848bb39d5e4acc3,
-                type: 2}
+              m_AudioConfig: {fileID: 11400000, guid: e33d5a179a6234e44848bb39d5e4acc3, type: 2}
               m_AudioClips: []
         m_CanStopIfInputStop: 0
         m_CanStopSubstateIndexAddition: 10
     - rid: 5031970604905398298
-      type: {class: Sequence, ns: Opsive.UltimateCharacterController.Items.AnimatorAudioStates,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: Sequence, ns: Opsive.UltimateCharacterController.Items.AnimatorAudioStates, asm: Opsive.UltimateCharacterController}
       data:
         m_ResetDelay: -1
     - rid: 5031970604905398302
-      type: {class: SimpleCaster, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Magic,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: SimpleCaster, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Magic, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -586,8 +578,7 @@ MonoBehaviour:
         m_InterruptSource: 0
         m_CastUpdateOnCast: 0
     - rid: 5031970604905398308
-      type: {class: SpawnProjectile, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Magic.CastEffects,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: SpawnProjectile, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Magic.CastEffects, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -602,15 +593,13 @@ MonoBehaviour:
         m_Delay: 0
         m_InitialDelay: -1
         m_AllowMultiTarget: 1
-        m_ProjectilePrefab: {fileID: 7690434838689712164, guid: d484f875c177b324596d299e7ef9c151,
-          type: 3}
+        m_ProjectilePrefab: {fileID: 7690434838689712164, guid: d484f875c177b324596d299e7ef9c151, type: 3}
         m_PositionOffset: {x: 0, y: 0, z: 0}
         m_RotationOffset: {x: 0, y: 0, z: 0}
         m_Speed: 20
         m_ParentToOrigin: 0
     - rid: 6628036693304541184
-      type: {class: RicochetImpact, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Magic,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: RicochetImpact, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Magic, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -641,8 +630,7 @@ MonoBehaviour:
             serializedVersion: 2
             m_Bits: 67108864
     - rid: 6628036693304541185
-      type: {class: GenericMagicImpactModule, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Magic,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: GenericMagicImpactModule, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Magic, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -664,8 +652,7 @@ MonoBehaviour:
         m_FailImpactActions:
           m_ImpactActions: []
     - rid: 6628036693304541186
-      type: {class: PlayAudioClip, ns: Opsive.UltimateCharacterController.Items.Actions.Impact,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: PlayAudioClip, ns: Opsive.UltimateCharacterController.Items.Actions.Impact, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -678,12 +665,10 @@ MonoBehaviour:
         m_Delay: 0
         m_AllowMultiHits: 0
         m_AudioClipSet:
-          m_AudioConfig: {fileID: 11400000, guid: e33d5a179a6234e44848bb39d5e4acc3,
-            type: 2}
+          m_AudioConfig: {fileID: 11400000, guid: e33d5a179a6234e44848bb39d5e4acc3, type: 2}
           m_AudioClips: []
     - rid: 6628036693304541187
-      type: {class: SimpleDamage, ns: Opsive.UltimateCharacterController.Items.Actions.Impact,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: SimpleDamage, ns: Opsive.UltimateCharacterController.Items.Actions.Impact, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -727,13 +712,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 838914188}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 104266164}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1345693789
 GameObject:
@@ -758,13 +743,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1345693789}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2013716322}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2013716321
 GameObject:
@@ -791,6 +776,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2013716321}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.60747766, y: 0.3542994, z: -0.58870786, w: 0.39858}
   m_LocalPosition: {x: 0.67813873, y: 1.2949572, z: -0.019271167}
   m_LocalScale: {x: 0.9999936, y: 1.0000045, z: 1}
@@ -798,7 +784,6 @@ Transform:
   m_Children:
   - {fileID: 1345693790}
   m_Father: {fileID: 108117436}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2013716324
 MonoBehaviour:
