@@ -16,7 +16,7 @@ MonoBehaviour:
   BlendShapeName: O
   Preset: 6
   Values:
-  - RelativePath: Face
+  - RelativePath: Face.001
     Index: 43
     Weight: 100
   MaterialValues: []

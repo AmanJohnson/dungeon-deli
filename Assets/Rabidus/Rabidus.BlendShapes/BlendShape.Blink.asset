@@ -16,7 +16,7 @@ MonoBehaviour:
   BlendShapeName: Blink
   Preset: 7
   Values:
-  - RelativePath: Face
+  - RelativePath: Face.001
     Index: 13
     Weight: 100
   MaterialValues: []

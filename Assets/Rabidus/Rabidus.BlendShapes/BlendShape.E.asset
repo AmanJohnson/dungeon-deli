@@ -16,7 +16,7 @@ MonoBehaviour:
   BlendShapeName: E
   Preset: 5
   Values:
-  - RelativePath: Face
+  - RelativePath: Face.001
     Index: 42
     Weight: 100
   MaterialValues: []

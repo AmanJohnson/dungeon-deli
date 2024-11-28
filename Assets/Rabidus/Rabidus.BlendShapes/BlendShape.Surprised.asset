@@ -16,7 +16,7 @@ MonoBehaviour:
   BlendShapeName: Surprised
   Preset: 0
   Values:
-  - RelativePath: Face
+  - RelativePath: Face.001
     Index: 5
     Weight: 100
   MaterialValues: []

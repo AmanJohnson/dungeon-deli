@@ -16,7 +16,7 @@ MonoBehaviour:
   BlendShapeName: Fun
   Preset: 11
   Values:
-  - RelativePath: Face
+  - RelativePath: Face.001
     Index: 2
     Weight: 100
   MaterialValues: []

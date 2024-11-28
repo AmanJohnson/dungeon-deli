@@ -16,7 +16,7 @@ MonoBehaviour:
   BlendShapeName: Joy
   Preset: 8
   Values:
-  - RelativePath: Face
+  - RelativePath: Face.001
     Index: 3
     Weight: 100
   MaterialValues: []

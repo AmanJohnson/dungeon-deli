@@ -16,7 +16,7 @@ MonoBehaviour:
   BlendShapeName: Sorrow
   Preset: 10
   Values:
-  - RelativePath: Face
+  - RelativePath: Face.001
     Index: 4
     Weight: 100
   MaterialValues: []
