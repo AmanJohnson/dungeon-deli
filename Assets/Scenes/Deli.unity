@@ -1884,11 +1884,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ItemSetGroups:
-  - m_SerializedItemCategory: {fileID: 114688281249701904, guid: 5481010ef14c32f4cb7b6661b0c59fb4, type: 2}
+  - m_SerializedItemCategory: {fileID: 3632010155028816273, guid: ab77ecbf0b775e2418bee0cb2f78ebb8, type: 2}
     m_StartingItemSetRules:
-    - {fileID: 11400000, guid: a26ce96f0eca43d4fbf76b9d2203da18, type: 2}
+    - {fileID: 11400000, guid: 3695962ce61eb24428627ec90e3c341c, type: 2}
   m_OnAddItemUpdateItemSetsOption: 0
-  m_ItemCollection: {fileID: 11400000, guid: 5481010ef14c32f4cb7b6661b0c59fb4, type: 2}
+  m_ItemCollection: {fileID: 11400000, guid: ab77ecbf0b775e2418bee0cb2f78ebb8, type: 2}
 --- !u!114 &569182322
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1935,7 +1935,11 @@ MonoBehaviour:
     m_Option: 1
     m_ItemSetName: 
     m_Index: 0
-  m_DefaultLoadout: []
+  m_DefaultLoadout:
+  - ItemDefinition: {fileID: 430052322350307585, guid: ab77ecbf0b775e2418bee0cb2f78ebb8, type: 2}
+    Amount: 0
+  - ItemDefinition: {fileID: 1856044823520389484, guid: ab77ecbf0b775e2418bee0cb2f78ebb8, type: 2}
+    Amount: 0
   m_RemoveExceptions: []
 --- !u!114 &569182323
 MonoBehaviour:
