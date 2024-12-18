@@ -1937,9 +1937,9 @@ MonoBehaviour:
     m_Index: 0
   m_DefaultLoadout:
   - ItemDefinition: {fileID: 430052322350307585, guid: ab77ecbf0b775e2418bee0cb2f78ebb8, type: 2}
-    Amount: 0
+    Amount: 1
   - ItemDefinition: {fileID: 1856044823520389484, guid: ab77ecbf0b775e2418bee0cb2f78ebb8, type: 2}
-    Amount: 0
+    Amount: 100
   m_RemoveExceptions: []
 --- !u!114 &569182323
 MonoBehaviour:
