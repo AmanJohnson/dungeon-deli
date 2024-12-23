@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: a19c2c33b92095c4490ac947d4a92a91
+  productGUID: 9789f550307434e428c9b3bcf414c48c
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -755,10 +755,10 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: 85945aba-88b1-4cb1-90dc-9dd726c81508
+  cloudProjectId: 2bba8f42-65dd-4aba-b5d4-52ce5c0c81f8
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Dungeon Deli
+  projectName: Dungeon Deli 2024-12-18_23-24-33
   organizationId: sovember
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0

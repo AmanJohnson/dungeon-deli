@@ -1,2 +1,0 @@
-# dungeon-deli
-Dungeon Deli

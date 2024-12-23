@@ -237,3 +237,11 @@ RadioToggle > VisualElement > .light-radio-checkmark
     padding-right: 8px;
     background-image: url("../Icons/DuplicateLightIcon.png");
 }
+
+#no-border-button
+{
+    border-width: 0;
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
